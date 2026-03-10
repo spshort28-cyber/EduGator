@@ -1,0 +1,36 @@
+
+body, html { margin: 0; padding: 0; overflow-x: hidden; scroll-behavior: smooth; font-family: Arial, sans-serif; background: #0b3d2e; color: white; }
+
+/* Remove overflow hidden from body to allow scrolling */ body { overflow: auto; }
+
+/* Hero video and text */ .hero { position: relative; height: 100vh; }
+
+.hero-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+
+.hero-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; z-index: 2; }
+
+.hero-text h1 { font-size: 4rem; margin: 0; text-shadow: 2px 2px 6px rgba(0,0,0,0.7); }
+
+.hero-text p { font-size: 1.5rem; text-shadow: 2px 2px 6px rgba(0,0,0,0.7); margin-top: 10px; }
+
+nav { background: #145a32; text-align: center; padding: 10px; position: sticky; top: 0; z-index: 3; }
+
+nav a { color: rgb(255, 255, 255); margin: 15px; text-decoration: none; font-weight: bold; }
+
+.section { padding: 40px; text-align: center; }
+
+/* Slideshow */ .slideshow { position: relative; max-width: 600px; margin: auto; }
+
+.slide { display: none; width: 100%; border-radius: 10px; }
+
+.slide.active { display: block; }
+
+/* Merch Section */ .merch-items { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+
+.item { background: #1e8449; padding: 20px; border-radius: 12px; width: 250px; }
+
+.item img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+
+button { padding: 10px 15px; border: none; border-radius: 5px; background: #2ecc71; cursor: pointer; font-weight: bold; }
+
+footer { background: #06281d; padding: 20px; text-align: center; }
